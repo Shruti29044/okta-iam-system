@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "log1",
+    "action": "USER_CREATED",
+    "performedBy": "admin@cypress.test",
+    "targetUser": "alice@example.com",
+    "targetGroup": null,
+    "status": "SUCCESS",
+    "timestamp": "2026-03-10T10:00:00.000Z"
+  },
+  {
+    "_id": "log2",
+    "action": "GROUP_ASSIGNED",
+    "performedBy": "admin@cypress.test",
+    "targetUser": "alice@example.com",
+    "targetGroup": "Admin",
+    "status": "SUCCESS",
+    "timestamp": "2026-03-10T10:01:00.000Z"
+  },
+  {
+    "_id": "log3",
+    "action": "USER_DISABLED",
+    "performedBy": "admin@cypress.test",
+    "targetUser": "bob@example.com",
+    "targetGroup": null,
+    "status": "FAILURE",
+    "timestamp": "2026-03-10T11:00:00.000Z"
+  }
+]

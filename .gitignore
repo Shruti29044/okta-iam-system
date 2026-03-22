@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Build / IDE
+dist/
+build/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test artifacts
+coverage/
+cypress/screenshots/
+cypress/videos/

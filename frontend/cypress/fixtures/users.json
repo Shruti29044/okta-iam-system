@@ -1,0 +1,32 @@
+[
+  {
+    "id": "00u1abc",
+    "status": "ACTIVE",
+    "profile": {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice@example.com",
+      "login": "alice@example.com"
+    }
+  },
+  {
+    "id": "00u2def",
+    "status": "ACTIVE",
+    "profile": {
+      "firstName": "Bob",
+      "lastName": "Jones",
+      "email": "bob@example.com",
+      "login": "bob@example.com"
+    }
+  },
+  {
+    "id": "00u3ghi",
+    "status": "DEPROVISIONED",
+    "profile": {
+      "firstName": "Carol",
+      "lastName": "White",
+      "email": "carol@example.com",
+      "login": "carol@example.com"
+    }
+  }
+]

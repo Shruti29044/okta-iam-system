@@ -1,0 +1,22 @@
+[
+  {
+    "id": "00g1aaa",
+    "type": "OKTA_GROUP",
+    "profile": { "name": "Admin", "description": "Administrators" }
+  },
+  {
+    "id": "00g2bbb",
+    "type": "OKTA_GROUP",
+    "profile": { "name": "Manager", "description": "Managers" }
+  },
+  {
+    "id": "00g3ccc",
+    "type": "OKTA_GROUP",
+    "profile": { "name": "Employee", "description": "All employees" }
+  },
+  {
+    "id": "00g4ddd",
+    "type": "BUILT_IN",
+    "profile": { "name": "Everyone", "description": "All users" }
+  }
+]

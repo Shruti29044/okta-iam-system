@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "evt-001",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "published": "2026-03-10T09:00:00.000Z",
+    "actor": { "displayName": "Alice Smith" },
+    "target": [{ "displayName": "Okta IAM System" }],
+    "outcome": { "result": "SUCCESS" }
+  },
+  {
+    "uuid": "evt-002",
+    "eventType": "user.authentication.auth_via_mfa",
+    "severity": "INFO",
+    "published": "2026-03-10T09:01:00.000Z",
+    "actor": { "displayName": "Bob Jones" },
+    "target": [],
+    "outcome": { "result": "SUCCESS" }
+  },
+  {
+    "uuid": "evt-003",
+    "eventType": "user.account.lock",
+    "severity": "WARN",
+    "published": "2026-03-10T09:30:00.000Z",
+    "actor": { "displayName": "Okta System" },
+    "target": [{ "displayName": "Carol White" }],
+    "outcome": { "result": "FAILURE" }
+  }
+]
